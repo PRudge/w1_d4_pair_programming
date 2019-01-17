@@ -45,3 +45,13 @@ def favourite_foods(people_array)
   end
   return foods_array
 end
+
+def no_friends(people_array)
+  no_friends_people = []
+  for person in people_array
+    if person[:friends].length == 0
+      no_friends_people << person
+    end
+  end
+  return no_friends_people
+end
