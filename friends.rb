@@ -12,4 +12,5 @@ def likes_to_eat(person, snack)
       return true
     end
   end
+  return false
 end
